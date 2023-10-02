@@ -15,13 +15,12 @@ public class Ejercicio5 {
 		System.out.println("Valor inicial D = " + d);
 		
 		b = c;
-		c = a;
-		a = d;
-		d = b;
-
-		System.out.println("Valor modificado A = " + a);
 		System.out.println("Valor modificado B = " + b);
+		c = a;
 		System.out.println("Valor modificado C = " + c);
+		a = d;
+		System.out.println("Valor modificado A = " + a);
+		d = b;
 		System.out.println("Valor modificado D = " + d);
 
 		
